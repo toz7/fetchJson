@@ -1,0 +1,58 @@
+
+table{
+    border-collapse: collapse;
+    min-width: 800px;
+    text-align: center;
+    height: 100px;
+}
+
+th, td, tr{
+    border: #000 1px solid;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+td{
+    height: 50px;
+    padding: 10px;
+}
+
+th{
+    background-color: #f17006;
+    color: #fff;
+    
+}
+
+tr {
+    background: #b0d0fa;
+    background: linear-gradient(to left, transparent 50%, #b0d0fa 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+tr:hover{
+    background-position: left;
+    transition: 0.5s ease;
+}
+
+#btn { 
+    background: #f17006;
+    background: linear-gradient(to left, transparent 50%, #f17006 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #000;
+    border: 2px solid #2d3767;
+    border-radius: 25px;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-position: left;
+    transition: 0.5s ease;
+    color: #fff;
+}
